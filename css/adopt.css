@@ -1,0 +1,440 @@
+/* RESET STYLE */
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* FONTS */
+
+/* comfortaa font */
+.comfortaa-uniquifier {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* barlow font */
+.barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .barlow-extralight {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .barlow-black {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .barlow-thin-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .barlow-extralight-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .barlow-light-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .barlow-medium-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .barlow-semibold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .barlow-bold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .barlow-extrabold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .barlow-black-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* HEADER */
+h1 {
+  background-color: hsla(46, 98%, 80%, 0.6);
+  color: hsl(20, 100%, 65%);
+  font-size: 30px;
+  width: 390px;
+  height: 60px;
+  margin: 10px;
+  outline: solid hsla(46, 98%, 80%, 0.6);
+  border-radius: 10px;
+  vertical-align: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+
+header img {
+  width: 70px;
+  background-color: transparent;
+  margin: 0px;
+}
+
+/*NAVIGATION*/
+
+.nav-styling {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  font-size: 30px;
+}
+
+nav ul {
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 60%;
+  left: 150px;
+  top: 20px;
+}
+
+nav ul li {
+  background-color: hsl(76, 23%, 51%);
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+nav ul li:hover {
+  background-color:hsl(20, 100%, 65%);
+}
+
+li a {
+  color: white;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#line-one {
+  display: flex;
+  position: relative;
+  background-color: hsl(46, 98%, 80%);
+  width: 921px;
+  height: 5px;
+  left: 150px;
+  top: 33px;
+}
+
+#line-two {
+  display: flex;
+  position: relative;
+  background-color: hsl(20, 100%, 65%);
+  width: 921px;
+  height: 5px;
+  left: 150px;
+  top: 38px;
+} 
+
+/* MAIN */
+body {
+  background-color: hsl(22, 100%, 98%);
+  max-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::before ::after {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  font-size: 20px;
+  color: hsl(0, 84%, 24%);
+}
+
+#main-line1 {
+  background-color: hsl(20, 100%, 65%);
+  width: 500px;
+  height: 5px;
+} 
+
+main div img {
+  width: 400px;
+  height: 400px;
+}
+
+.green {
+  outline: 9px solid hsl(76, 23%, 51%);
+  border-radius: 5px;
+}
+
+.orange {
+  outline: 9px solid hsl(20, 100%, 65%);
+  border-radius: 5px;
+}
+
+#main-img {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  top: 35px;
+}
+
+#main-img2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  top: 50px;
+  padding-bottom: 100px;
+}
+
+#main-text1 {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  top: -20px;
+}
+
+#main-text2 {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  top: -105px;
+}
+
+main div p {
+  margin-left: 105px;
+  margin-right: 105px;
+  font-size: 30px;
+  background-color:hsla(24, 100%, 98%, 0.5);
+  padding: 7px;
+  width: 230px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* FOOTER TITLE (refer to html comment) */
+#footer-title {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 64px;
+  z-index: 999;
+}
+
+div h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  color:hsl(0, 100%, 8%);
+}
+
+#footer-line {
+  background-color:hsl(46, 98%, 80%);
+  width: 100%;
+  height: 4px;
+  margin-top: 5px;
+} 
+
+/* FORM & FOOTER */
+
+footer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 0px;
+    background-color: hsl(76, 23%, 51%);
+    width: 100%;
+    height: 270px;
+    bottom: -14px;
+}
+
+#form-div1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 0px;
+    height: 200px;
+    margin-left: 60px;
+    top: 60px;
+    color:hsl(0, 100%, 8%);
+}
+
+input[type=text] {
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: hsl(46, 85%, 87%);
+}
+
+::placeholder {
+  color:hsl(0, 37%, 52%);
+  opacity: 1;
+}
+
+#about-label-div {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 22px;
+    top: 75px;
+    left: 640px;
+    color:hsl(0, 100%, 8%);
+}
+
+#about-textarea {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    top: 105px;
+    left: 640px;
+    width: 550px;
+    height: 125px;
+}
+
+textarea {
+  width: 550px;
+  height: 125px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color:hsl(46, 85%, 87%);
+}
+
+#submit {
+  display: flex;
+  position: relative;
+  top: -65px;
+  left: 1260px;
+}
+
+input[type=submit] {
+  width: 200px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: 22px;
+  background-color: hsl(46, 98%, 80%);
+  color:hsl(0, 100%, 8%);
+}
+
+input[type=submit]:hover {
+  color: white;
+  background-color: hsl(20, 100%, 65%);
+  outline: 4px solid white;
+  font-size: 24px;
+}
+
+footer:after {
+  content: none;
+}
