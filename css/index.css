@@ -124,7 +124,7 @@
 h1 {
   background-color: white;
   color: hsl(20, 100%, 65%);
-  font-size: 30px;
+  font-size: 2em;
   width: 390px;
   height: 60px;
   margin: 10px;
@@ -155,7 +155,7 @@ header img {
 }
 
 nav {
-  font-size: 30px;
+  width: 100%;
 }
 
 nav ul {
@@ -165,7 +165,7 @@ nav ul {
   justify-content: space-between;
   flex-direction: row;
   width: 60%;
-  left: 150px;
+  left: 9.5%;
   top: 20px;
 }
 
@@ -173,7 +173,7 @@ nav ul li {
   background-color: hsl(76, 23%, 51%);
   list-style-type: none;
   color: white;
-  font-size: 20px;
+  font-size: 1.5em;
   outline: none;
   width: 160px;
   height: 60px;
@@ -204,9 +204,9 @@ li a {
   display: flex;
   position: relative;
   background-color: hsl(46, 98%, 80%);
-  width: 921px;
+  width: 60%;
   height: 5px;
-  left: 150px;
+  left: 9.5%;
   top: 33px;
 }
 
@@ -214,9 +214,9 @@ li a {
   display: flex;
   position: relative;
   background-color: hsl(20, 100%, 65%);
-  width: 921px;
+  width: 60%;
   height: 5px;
-  left: 150px;
+  left: 9.5%;
   top: 38px;
 }
 
@@ -225,10 +225,14 @@ body{
     background-color: hsl(22, 100%, 98%);
 }
 
+main {
+  width: 75%;
+  height: 100%
+}
+
 h2{
-  display: flex;
-  justify-content: center;
-  font-size: 35px;
+  text-align: center;
+  font-size: 1.5em;
   font-weight: 800;
 }
 
@@ -241,7 +245,7 @@ h2{
   position: absolute;
   z-index: -1;
   height: 100%;
-  width: 500px;
+  width: 33%;
   left: 0;
   top: 0;
 }
@@ -250,22 +254,24 @@ h2{
     display: flex;
     position: relative;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     color: hsl(0, 84%, 24%);
-    font-size: 25px;
+    font-size: 1.5em;
     font-weight: 700;
-    width: 920px;
-    height: 515px;
-    left: 150px;
-    top: 60px;
+    width: 75%;
+    height: 60%;
+    left: 51%;
+    top: 1.5em;
 }
 
 #main-section{
     background-color: #fcd5c0;
-    width: 900px;
-    height: 470px;
+    width: 98%;
+    height: 98%;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 20px;
     border-radius: 10px;
 }
 
@@ -275,8 +281,13 @@ h2{
 
 /* FOOTER */
 footer div img {
-  width: 60px;
-  height: 60px;
+  width: 2em;
+  height: 2em;
+}
+
+footer {
+  display: fixed;
+  bottom: 0;
 }
 
 #footer{
@@ -291,7 +302,6 @@ footer div img {
     color: hsl(46, 98%, 80%);
     font-size: 30px;
     font-weight: 500;
-    bottom: -81px;
     left: 560px;
 }
 
