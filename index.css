@@ -1,0 +1,391 @@
+/*RESET STYLESTHEET*/ 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* comfortaa font */
+.comfortaa-uniquifier {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* barlow font */
+.barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .barlow-extralight {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .barlow-black {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .barlow-thin-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .barlow-extralight-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .barlow-light-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .barlow-medium-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .barlow-semibold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .barlow-bold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .barlow-extrabold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .barlow-black-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/*HEADER STYLES */
+h1 {
+  background-color: white;
+  color: hsl(20, 100%, 65%);
+  font-size: 2em;
+  width: 390px;
+  height: 60px;
+  margin: 10px;
+  outline: solid white;
+  border-radius: 10px;
+  vertical-align: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+
+header img {
+  width: 70px;
+  background-color: white;
+  margin: 0px;
+}
+
+#headerdiv {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+/*NAVIGATION*/
+.nav-styling {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  outline: 1px solid red;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  left: 15%;
+  top: 1.2em;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.8em;
+}
+
+nav ul li a{
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: hsl(76, 23%, 51%);
+  color: red;
+  display: flex;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+nav ul li:hover {
+  background-color:hsl(20, 100%, 65%);
+}
+
+/* .nav-styling {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  height: 50%;
+  outline: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+nav ul {
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 60%;
+  left: 9.5%;
+  top: 20px;
+}
+
+nav ul li {
+  background-color: hsl(76, 23%, 51%);
+  list-style-type: none;
+  color: white;
+  font-size: 1.5em;
+  outline: none;
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color:hsl(20, 100%, 65%);
+}
+
+li a {
+  color: white;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+} 
+*/
+
+#line-one {
+  display: flex;
+  position: relative;
+  background-color: hsl(46, 98%, 80%);
+  width: 60%;
+  height: 5px;
+  left: 9.5%;
+  top: 33px;
+}
+
+#line-two {
+  display: flex;
+  position: relative;
+  background-color: hsl(20, 100%, 65%);
+  width: 60%;
+  height: 5px;
+  left: 9.5%;
+  top: 38px;
+}
+
+/* MAIN */
+body{
+    background-color: hsl(22, 100%, 98%);
+    overflow: hidden;
+}
+
+main {
+  width: 75%;
+  height: 100%;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.h-two-space {
+  margin-bottom: 10px;
+}
+
+#bird {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 33%;
+  left: 0;
+  top: 0;
+}
+
+#main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 84%, 24%);
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 75%;
+    height: 60%;
+    left: 51%;
+    top: 1.5em;
+}
+
+#main-section{
+    background-color: #fcd5c0;
+    width: 98%;
+    height: 98%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.main-space {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+footer div img {
+  width: 2em;
+  height: 2em;
+}
+
+footer {
+  display: fixed;
+  bottom: 0;
+}
+
+#footer{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    width: 920px;
+    height: 75px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: hsl(76, 23%, 51%);
+    color: hsl(46, 98%, 80%);
+    font-size: 30px;
+    font-weight: 500;
+    left: 560px;
+}
+
+#phone {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+}
+
+#contact {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 90px;
+}
+
+#media {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  height: 60px;
+  left: 140px;
+  bottom: -5px;
+}
