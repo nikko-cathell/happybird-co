@@ -8,7 +8,6 @@
 /* FONTS */
 
 /* COMFORTAA FONT */
-/* comfortaa font */
 .comfortaa-uniquifier {
     font-family: "Comfortaa", sans-serif;
     font-weight: 700;
@@ -124,105 +123,135 @@
     }
 
     /* HEADER */
-    h1 {
-        background-color: white;
-        color: hsl(20, 100%, 65%);
-        font-size: 30px;
-        width: 390px;
-        height: 60px;
-        margin: 10px;
-        outline: solid white;
-        border-radius: 10px;
-        vertical-align: top;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 40px;
-        top: 10px;
-      }
-      
-      header img {
-        width: 70px;
-        background-color: white;
-        margin: 0px;
-      }
-      
-      /*NAVIGATION*/
-      
-      .nav-styling {
-        float: left;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      nav {
-        font-size: 30px;
-      }
-      
-      nav ul {
-        text-decoration: none;
-        display: flex;
-        position: relative;
-        justify-content: space-between;
-        flex-direction: row;
-        width: 60%;
-        left: 150px;
-        top: 20px;
-      }
-      
-      nav ul li {
-        background-color: hsl(76, 23%, 51%);
-        list-style-type: none;
-        color: white;
-        font-size: 20px;
-        outline: none;
-        width: 160px;
-        height: 60px;
-        border-radius: 10px;
-        box-sizing: border-box;
-        text-align: center;
-      
-      }
-      
-      nav ul li:hover {
-        background-color:hsl(20, 100%, 65%);
-      }
-      
-      li a {
-        color: white;
-        display: flex;
-        position: absolute;
-        flex-direction: row;
-        width: 160px;
-        height: 60px;
-        text-align: center;
-        justify-content: center;
-        vertical-align: middle;
-        align-items: center;
-      }
-      
-      #line-one {
-        display: flex;
-        position: relative;
-        background-color: hsl(46, 98%, 80%);
-        width: 921px;
-        height: 5px;
-        left: 150px;
-        top: 33px;
-      }
-      
-      #line-two {
-        display: flex;
-        position: relative;
-        background-color: hsl(20, 100%, 65%);
-        width: 921px;
-        height: 5px;
-        left: 150px;
-        top: 38px;
-      }
+    header {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: row;
+      vertical-align: center;
+      align-items: center;
+      width: 100%;
+      height: 85px;
+      background-color: hsl(76, 23%, 51%);
+  }
 
+  #logo {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: row;
+      vertical-align: center;
+      align-items: center;
+      font-size: 1em;
+      width: 400px;
+      height: 63px;
+      background-color: white;
+      color: hsl(20, 100%, 65%);
+      border-radius: 10px;
+    }
+    
+    header h1 {
+      padding-right: 10px;
+    }
+    
+    header a {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: row;
+      vertical-align: center;
+      align-items: center;
+      color: hsl(20, 100%, 65%);
+      text-decoration: none;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+    }
+    
+    header img {
+      width: 70px;
+      background-color: white;
+      margin-right: 20px;
+      margin-left: 10px;
+    }
+
+    /* NAVIGATION */
+    nav {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      top: -10px;
+    }
+    
+    nav ul {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-decoration: none;
+      list-style-type: none;
+      font-size: 1.5em;
+    }
+    
+    nav ul li a{
+      display: flex;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 170px;
+      height: 60px;
+      margin-right: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      background-color: hsl(76, 23%, 51%);
+      color: white;
+    }
+    
+    nav ul li a:hover {
+      background-color:hsl(20, 100%, 65%);
+    }
+    
+    #nav-and-lines {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 120px;
+    }
+
+    #lines {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-right: 20px;
+    }
+
+    #line-one {
+      display: flex;
+      position: relative;
+      background-color: hsl(46, 98%, 80%);
+      width: 60%;
+      height: 5px;
+      top: 10px;
+    }
+    
+    #line-two {
+      display: flex;
+      position: relative;
+      background-color: #ff884d;
+      width: 60%;
+      height: 5px;
+      top: 15px;
+    }
     /* MAIN */
     body {
         background-color: hsl(22, 100%, 98%);
