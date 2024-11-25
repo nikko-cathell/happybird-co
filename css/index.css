@@ -1,351 +1,343 @@
 /*RESET STYLESTHEET*/ 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* comfortaa font */
+.comfortaa-uniquifier {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* barlow font */
+.barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   }
   
-  /* comfortaa font */
-  .comfortaa-uniquifier {
-    font-family: "Comfortaa", sans-serif;
+  .barlow-extralight {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-bold {
+    font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
-  /* barlow font */
-  .barlow-thin {
-      font-family: "Barlow", sans-serif;
-      font-weight: 100;
-      font-style: normal;
-    }
-    
-    .barlow-extralight {
-      font-family: "Barlow", sans-serif;
-      font-weight: 200;
-      font-style: normal;
-    }
-    
-    .barlow-light {
-      font-family: "Barlow", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-    }
-    
-    .barlow-regular {
-      font-family: "Barlow", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .barlow-medium {
-      font-family: "Barlow", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-    }
-    
-    .barlow-semibold {
-      font-family: "Barlow", sans-serif;
-      font-weight: 600;
-      font-style: normal;
-    }
-    
-    .barlow-bold {
-      font-family: "Barlow", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-    
-    .barlow-extrabold {
-      font-family: "Barlow", sans-serif;
-      font-weight: 800;
-      font-style: normal;
-    }
-    
-    .barlow-black {
-      font-family: "Barlow", sans-serif;
-      font-weight: 900;
-      font-style: normal;
-    }
-    
-    .barlow-thin-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 100;
-      font-style: italic;
-    }
-    
-    .barlow-extralight-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 200;
-      font-style: italic;
-    }
-    
-    .barlow-light-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 300;
-      font-style: italic;
-    }
-    
-    .barlow-regular-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 400;
-      font-style: italic;
-    }
-    
-    .barlow-medium-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 500;
-      font-style: italic;
-    }
-    
-    .barlow-semibold-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 600;
-      font-style: italic;
-    }
-    
-    .barlow-bold-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 700;
-      font-style: italic;
-    }
-    
-    .barlow-extrabold-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 800;
-      font-style: italic;
-    }
-    
-    .barlow-black-italic {
-      font-family: "Barlow", sans-serif;
-      font-weight: 900;
-      font-style: italic;
-    }
+  
+  .barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .barlow-black {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .barlow-thin-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .barlow-extralight-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .barlow-light-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .barlow-medium-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .barlow-semibold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .barlow-bold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .barlow-extrabold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .barlow-black-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
-    /* BODY */
-    html, body {
-        background-color: hsl(22, 100%, 98%);
-        width: 100hv;
-        height: 100vh;
-        font-size: 100%;
-        overflow: hidden;
-    }
+/* BODY */
+body {
+  background-color: hsl(22, 100%, 98%);
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
 
-    /* HEADER */
-    header {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        flex-direction: row;
-        vertical-align: center;
-        align-items: center;
-        width: 100%;
-        height: 85px;
-        background-color: hsl(76, 23%, 51%);
-    }
+/*HEADER STYLES */
+#logo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  vertical-align: center;
+  align-items: center;
+  font-size: 1em;
+  width: 540px;
+  height: 63px;
+  background-color: white;
+  color: hsl(20, 100%, 65%);
+  border-radius: 10px;
+  left: 3.2%;
+  margin-top: 1.4%;
+}
 
-    #logo {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        flex-direction: row;
-        vertical-align: center;
-        align-items: center;
-        font-size: 1em;
-        width: 400px;
-        height: 63px;
-        background-color: white;
-        color: hsl(20, 100%, 65%);
-        border-radius: 10px;
-      }
-      
-      header h1 {
-        padding-right: 10px;
-      }
-      
-      header a {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        flex-direction: row;
-        vertical-align: center;
-        align-items: center;
-        color: hsl(20, 100%, 65%);
-        text-decoration: none;
-        text-align: center;
-        height: 100%;
-        width: 100%;
-      }
-      
-      header img {
-        width: 70px;
-        background-color: white;
-        margin-right: 20px;
-        margin-left: 10px;
-      }
+header h1 {
+  padding-right: 10px;
+}
 
-      /* NAVIGATION */
-      nav {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        top: -10px;
-      }
-      
-      nav ul {
-        display: flex;
-        position: relative;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-decoration: none;
-        list-style-type: none;
-        font-size: 1.4rem;
-      }
-      
-      nav ul li a{
-        display: flex;
-        position: relative;
-        text-align: center;
-        vertical-align: middle;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 170px;
-        height: 60px;
-        margin-right: 20px;
-        border-radius: 10px;
-        box-sizing: border-box;
-        background-color: hsl(76, 23%, 51%);
-        color: white;
-      }
-      
-      nav ul li a:hover {
-        background-color:hsl(20, 100%, 65%);
-      }
-      
-      #nav-and-lines {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: 120px;
-      }
+header a {
+  color: hsl(20, 100%, 65%);
+  text-decoration: none;
+}
 
-      #lines {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-right: 20px;
-      }
+header img {
+  width: 70px;
+  background-color: white;
+  margin-right: 20px;
+}
 
-      #line-one {
-        display: flex;
-        position: relative;
-        background-color: hsl(46, 98%, 80%);
-        width: 60%;
-        height: 5px;
-        top: 10px;
-      }
-      
-      #line-two {
-        display: flex;
-        position: relative;
-        background-color: #ff884d;
-        width: 60%;
-        height: 5px;
-        top: 15px;
-      }
+#headerdiv {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+}
 
-      /* MAIN */
-      #main {
-        display: flex;
-        position: relative;
-        justify-content: space-evenly;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-        height: 50vh;
-      }
+/*NAVIGATION*/
+#nav-and-lines {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-      #main img {
-        width: 15vh;
-        height: 45vh;
-      }
+nav {
+  width: 100%;
+}
 
-      main h2{
-        text-align: center;
-        font-size: 2.3em;
-        font-weight: 800;
-        color: hsl(0, 84%, 24%);
-        margin-bottom: 1%;
-      }
+nav ul {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  left: 14%;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.5em;
+  margin-top: 2%;
+}
 
-      #main p {
-        text-align: left;
-        font-size: 1.4rem;
-        color: hsl(0, 84%, 24%);
-        background-color: #fcd5c0;
-        width: 60%;
-        height: 100%;
-        border-radius: 10px;
-        padding: 15px;
-      }
+nav ul li a{
+  display: flex;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: hsl(76, 23%, 51%);
+  color: white;
+}
 
-      /* FOOTER */
-      footer div img {
-        width: 2em;
-        height: 2em;
-      }
+nav ul li a:hover {
+  background-color:hsl(20, 100%, 65%);
+}
+
+#lines {
+  width: 100%;
+}
+
+#line-one {
+  display: flex;
+  position: relative;
+  background-color: hsl(46, 98%, 80%);
+  width: 81.5%;
+  height: 5px;
+  left: 14%;
+  top: 10px;
+}
+
+#line-two {
+  display: flex;
+  position: relative;
+  background-color: hsl(20, 100%, 65%);
+  width: 81.5%;
+  height: 5px;
+  left: 14%;
+  top: 15px;
+}
+
+/* MAIN */
+main {
+  color:hsl(0, 84%, 24%);
+  width: 75%;
+  height: 100%;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.h-two-space {
+  margin-bottom: 10px;
+}
+
+section img {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 33%;
+  left: 0;
+  top: 0;
+}
+
+#main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 84%, 24%);
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 75%;
+    height: 100%;
+    left: 51%;
+    top: 1.5em;
+}
+
+#main-section{
+    background-color: #fcd5c0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+ footer div img {
+  width: 2em;
+  height: 2em;
+  }
       
-      footer {
-        position: absolute;
-        align-items: center;
-        left: 20%;
-        bottom: 0;
-        width: 100%
-      }
-      
-      #footer{
-          display: flex;
-          position: relative;
-          justify-content: space-around;
-          flex-direction: row;
-          align-items: center;
-          width: 60%;
-          height: 2.2em;
-          border-radius: 10px 10px 0px 0px;
-          background-color: hsl(76, 23%, 51%);
-          color: hsl(46, 98%, 80%);
-          font-size: 2em;
-          font-weight: 500;
-      }
-      
-      #phone {
-        display: flex;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 300px;
-        height: 60px;
-      }
-      
-      #contact {
-        display: flex;
-        position: relative;
-        justify-content: center;
-      }
-      
-      #media {
-        display: flex;
-        position: relative;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 350px;
-        height: 60px;
-        bottom: -5px;
-      }
+footer {
+  width: 100%;
+}
+
+#footer{
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 56.5%;
+  height: 2em;
+  left: 37.5%;
+  margin-top: 4.5%;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: hsl(76, 23%, 51%);
+  color: hsl(46, 98%, 80%);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#phone {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+}
+
+#contact {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 90px;
+}
+
+#media {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  height: 60px;
+  /* left: 140px; */
+  bottom: -5px;
+}
