@@ -1,0 +1,239 @@
+/*RESET STYLESTHEET*/ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* comfortaa font */
+  .comfortaa-uniquifier {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* barlow font */
+  .barlow-thin {
+      font-family: "Barlow", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .barlow-extralight {
+      font-family: "Barlow", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .barlow-light {
+      font-family: "Barlow", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .barlow-regular {
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .barlow-medium {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .barlow-semibold {
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .barlow-bold {
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .barlow-extrabold {
+      font-family: "Barlow", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .barlow-black {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .barlow-thin-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .barlow-extralight-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .barlow-light-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .barlow-regular-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .barlow-medium-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .barlow-semibold-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .barlow-bold-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .barlow-extrabold-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .barlow-black-italic {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+  
+  /* BODY */
+  body {
+    background-color: hsl(22, 100%, 98%);
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  /*HEADER STYLES */
+#logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    vertical-align: center;
+    align-items: center;
+    font-size: 1em;
+    width: 540px;
+    height: 63px;
+    background-color: hsla(46, 98%, 80%, 0.6);
+    color: hsl(20, 100%, 65%);
+    border-radius: 10px;
+    left: 3.2%;
+    margin-top: 1.4%;
+  }
+  
+  header h1 {
+    padding-right: 10px;
+  }
+  
+  header a {
+    color: hsl(20, 100%, 65%);
+    text-decoration: none;
+  }
+  
+  #logo img {
+    width: 70px;
+    height: 50px;
+    background-color: transparent;
+    margin-right: 20px;
+  }
+  
+  #headerdiv {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  /*NAVIGATION*/
+  #nav-and-lines {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    left: 14%;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5em;
+    margin-top: 2%;
+  }
+  
+  nav ul li a{
+    display: flex;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: hsl(76, 23%, 51%);
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    background-color:hsl(20, 100%, 65%);
+  }
+  
+  #lines {
+    width: 100%;
+  }
+  
+  #line-one {
+    display: flex;
+    position: relative;
+    background-color: hsl(46, 98%, 80%);
+    width: 82.7%;
+    height: 5px;
+    left: 14%;
+    top: 10px;
+  }
+  
+  #line-two {
+    display: flex;
+    position: relative;
+    background-color: hsl(20, 100%, 65%);
+    width: 82.7%;
+    height: 5px;
+    left: 14%;
+    top: 15px;
+  }

@@ -15,55 +15,111 @@
         </style>
 </head>
 <body>
-    <header>
-        <a href="index.html"><h1 class="comfortaa-uniquifier nav-styling heading"><img class="heading" src="images/happy-bird-logo.png" alt="happy bird logo">&nbsp;&nbsp;&nbsp;HappyBird Co.</h1></a>
-			<nav>
-				<ul class="comfortaa-uniquifier">
-					<li class="nav-styling"><a href="faq.html" style="text-decoration:none;">FAQ</a></li>
-					<li class="nav-styling"><a href="care.html" style="text-decoration:none;">Care</a></li>
-					<li class="nav-styling"><a href="adopt.html" style="text-decoration:none;">Adopt</a></li>
-					<li class="nav-styling"><a href="surrender.html" style="text-decoration:none;">Surrender</a></li>
-					<li class="nav-styling"><a href="donate.html" style="text-decoration:none;">Donate</a></li>
-				</ul>
-			</nav>
-
-			<div id="line-one"></div>
-			<div id="line-two"></div>
+    <!-- The header includes the company name, logo, and navigation bar -->
+<header>
+    <div id="headerdiv">
+    <div id="logo">
+        <img src="images/happy-bird-logo.png" alt="happy bird logo">
+        <a href="index.html"><h1 class="comfortaa-uniquifier">HappyBird Co.</h1></a>
+    </div>
+    <div id="nav-and-lines">
+    <nav>
+        <ul class="comfortaa-uniquifier">
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="care.html">Care</a></li>
+            <li><a href="adopt.html">Adopt</a></li>
+            <li><a href="surrender.html">Surrender</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+        <div id="lines">
+            <div id="line-one"></div>
+            <div id="line-two"></div>
+        </div>
+    </div>
+    </nav>
+    </div>
     </header>
+
+    <!-- Main includes donation form and some info -->
     <main>
         <h2 class="comfortaa-uniquifier">Donate!</h2>
-        <h4 class="barlow-regular">Some paragraph about how we always appreciate your donations and support and about where the funds go</h4>
-        <form id="main-form" name="donate-form" action="#" method="post">
+        <div id="main">
+        <div id="main-text" class="barlow-regular">
+            <p>Your donations are always greatly appreciated and are what keep our mission going! We are completely a
+            non-profit organization and transparency matters to us. Here is a list of where our donated funds are allocated. If you want more details
+            feel free to reach out using our contacts below!
+            </p>
+            <br>
+            <ul>
+                <li>Supplying food for the birds in our care</li>
+                <li>Providing ethical, clean living conditions for our birds</li>
+                <li>Furnishing our enclosures with toys that stimulate the mind and improve quality of life</li>
+                <li>Vet care for all birds but especially those rescued from detrimental situations</li>
+            </ul>
+        </div>
+            <form id="main-form" name="donate-form" action="#" method="post" class="barlow-regular">
 
-            <div>
-                <input type="radio" id="just-once" name="once-monthly" value="Just once">
-                <label for="just-once">Just once</label>
+                <div id="form" class="spacing">
+                    <div id="r-once" class="form-background">
+                        <input type="radio" id="just-once" name="once" value="Just once">
+                        <label for="just-once">Just once</label>
+                    </div>
+                    <div id="r-monthly" class="form-background">
+                    <input type="radio" id="monthly" name="once" value="Monthly">
+                    <label for="monthly">Monthly</label>
+                    </div>
+                    </div>
 
-                <input type="radio" id="monthly" name="once-monthly" value="Monthly">
-                <label for="monthly">Monthly</label>
-            </div>
+                    <div class="spacing">
+                        <div class="form-background">
+                        <input type="radio" id="5" name="amount" value="$5">
+                        <label for="amount">$5</label>
+                        </div>
+                        
+                        <div class="form-background">
+                        <input type="radio" id="20" name="amount" value="$20">
+                        <label for="amount">$20</label>
+                        </div>
+                    </div>
 
-            <div>
-                <div>
-                    <input type="radio" id="5" name="amount" value="$5">
-                    <label for="amount">$5</label>
+                    <div class="spacing">
+                        <div class="form-background">
+                        <input type="radio" id="50" name="amount" value="$50">
+                        <label for="amount">$50</label>
+                        </div>
 
-                    <input type="radio" id="20" name="amount" value="$20">
-                    <label for="amount">$20</label>
+                        <div class="form-background">
+                        <input type="radio" id="100" name="amount" value="$100">
+                        <label for="amount">$100</label>
+                        </div>
+                    </div>
+                    
+                    <div id="other">
+                    <div class="form-background">
+                        <input type="radio" id="other-amount" name="amount" value="Other Amount">
+                        <label for="amount">Other Amount</label>
+                    </div>
+                    </div>
                 </div>
-
-                <div>
-                    <input type="radio" id="50" name="amount" value="$50">
-                    <label for="amount">$50</label>
-
-                    <input type="radio" id="100" name="amount" value="$100">
-                    <label for="amount">$100</label>
+                <div id="continue">
+                    <input type="submit" value="- Continue -" class="barlow-bold">
                 </div>
-
-                    <input type="radio" id="other-amount" name="amount" value="Other Amount">
-                    <label for="amount">Other Amount</label>
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
+    <!-- The footer contains contacts with interactable media buttons -->
+    <footer>
+        <div id="footer" class="barlow-regular">
+            <div id="phone">
+            <img src="images/phone.png" alt="Phone"><p>804-777-7777</p>
+            </div>
+            <p>Contact Us</p>
+            <div id="media">
+            <a href="#"><img src="images/facebook.png" alt="facebook"></a><a href="#">
+            <img src="images/x.png" alt="x"></a><a href="#"><img src="images/instagram.png" alt="instagram">
+            </a><a href="#"><img src="images/mail.png" alt="email"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
