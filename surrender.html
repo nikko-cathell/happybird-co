@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surrender</title>
+    <link href="css/surrender.css" rel="stylesheet" type="text/css">
+    <!-- comfortaa font, for headings -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+    </style>
+    <!-- barlow font, for body -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&display=swap');
+    </style>
+</head>
+<body>
+    <!-- The header includes the company name, logo, and navigation bar -->
+    <header>
+        <div id="headerdiv">
+        <div id="logo">
+            <img src="images/happy-bird-logo.png" alt="happy bird logo">
+            <a href="index.html"><h1 class="comfortaa-uniquifier">HappyBird Co.</h1></a>
+        </div>
+        <div id="nav-and-lines">
+        <nav>
+            <ul class="comfortaa-uniquifier">
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="care.html">Care</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="surrender.html">Surrender</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+            <div id="lines">
+                <div id="line-one"></div>
+                <div id="line-two"></div>
+            </div>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!-- Main contains text -->
+     <main>
+        <div id="main">
+            <h2 class="comfortaa-uniquifier">Considering surrendering your bird?</h2>
+            <div id="main-line1"></div>
+            <p class="barlow-regular">
+                Surrendering a bird is an incredibly difficult decision and we commend anybody
+                <br>willing to consider the idea for the wellbeing of their bird.
+                <br>
+            </p>
+            <p class="barlow-regular">
+                Before surrendering, we ask that you carefully evaluate your situation as moving homes for a
+                <br>bird can be very traumatic. Surrendering should be the last option on your list.
+            </p>
+            <p class="barlow-regular">
+                If you are sure surrendering is the best option for you and your bird, please fill out the form
+                <br>below and we will get back to youas soon as possible. If you are questioning if surrendering is the
+                <br>right choice for you then please reach out to our contacts listed on the homepage for more information, resources, and assistance.
+            </p>
+        </div>
+     </main>
+     <!-- The footer title is contained outside of the footer due to it causing too many problems being inside of it-->
+<div id="footer-title">
+    <h3 class="comfortaa-uniquifier">Apply to surrender</h3>
+    <div id="footer-line"></div>
+</div>
+<!-- Footer has surrender form -->
+<footer>
+    <form id="footer-form" name="adoption-form" action="#" method="post">
+    <div id="form-div1">
+        <div>
+            <label for="first-name" class="comfortaa-uniquifier">First Name -</label>
+            <input type="text" class="barlow-regular" name="first-name" id="first-name" placeholder="Enter your first name">
+        </div>
+
+        <div>
+            <label for="last-name" class="comfortaa-uniquifier">Last Name -</label>
+            <input type="text" class="barlow-regular" name="last-name" id="last-name" placeholder="Enter your last name">
+        </div>
+        
+        <div>
+            <label for="age" class="comfortaa-uniquifier">Age -</label>
+            <input type="text" class="barlow-regular" name="age" id="age" placeholder="Enter your age">
+        </div>
+
+        <div>
+            <label for="email" class="comfortaa-uniquifier">Email -</label>
+            <input type="text" class="barlow-regular" name="email" id="email" placeholder="Enter your email address">
+        </div>
+
+        <div>
+            <label for="bird" class="comfortaa-uniquifier">Type of Bird -</label>
+            <input type="text" class="barlow-regular" name="bird" id="bird" placeholder="Enter the type of bird">
+        </div>
+        </div>
+        <div id="about-label-div">
+            <label for="about" class="comfortaa-uniquifier">About the Situation</label>
+        </div>
+        <div id="about-textarea">
+            <textarea class="barlow-regular" placeholder="Give a brief description of the situation surrounding your bird" name="about" id="about"></textarea>
+        </div>
+        <div id="submit">
+            <input type="submit" value="Submit" class="comfortaa-uniquifier">
+        </div>
+    </form>
+</footer>
+</body>
+</html>

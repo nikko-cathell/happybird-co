@@ -133,105 +133,113 @@ body {
   overflow-y: scroll;
 }
 
-/* HEADER */
-h1 {
-  background-color: hsla(46, 98%, 80%, 0.6);
-  color: hsl(20, 100%, 65%);
-  font-size: 30px;
-  width: 390px;
-  height: 60px;
-  margin: 10px;
-  outline: solid hsla(46, 98%, 80%, 0.6);
-  border-radius: 10px;
-  vertical-align: top;
+/*HEADER STYLES */
+#logo {
   display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  left: 40px;
-  top: 10px;
+  justify-content: center;
+  flex-direction: row;
+  vertical-align: center;
+  align-items: center;
+  font-size: 1em;
+  width: 540px;
+  height: 63px;
+  background-color: hsl(46, 85%, 87%);
+  color: hsl(20, 100%, 65%);
+  border-radius: 10px;
+  left: 3.2%;
+  margin-top: 1.4%;
+}
+
+header h1 {
+  padding-right: 10px;
+}
+
+header a {
+  color: hsl(20, 100%, 65%);
+  text-decoration: none;
 }
 
 header img {
   width: 70px;
-  background-color: transparent;
-  margin: 0px;
+  background-color: hsl(46, 85%, 87%);
+  margin-right: 20px;
+}
+
+#headerdiv {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
 }
 
 /*NAVIGATION*/
-
-.nav-styling {
-  float: left;
+#nav-and-lines {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 nav {
-  font-size: 30px;
+  width: 100%;
 }
 
 nav ul {
-  text-decoration: none;
   display: flex;
   position: relative;
-  justify-content: space-between;
   flex-direction: row;
-  width: 60%;
-  left: 150px;
-  top: 20px;
+  justify-content: space-evenly;
+  width: 80%;
+  left: 14%;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.5em;
+  margin-top: 2%;
 }
 
-nav ul li {
-  background-color: hsl(76, 23%, 51%);
-  list-style-type: none;
-  color: white;
-  font-size: 20px;
-  outline: none;
-  width: 160px;
+nav ul li a{
+  display: flex;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
   height: 60px;
+  margin-right: 20px;
   border-radius: 10px;
   box-sizing: border-box;
-  text-align: center;
-
+  background-color: hsl(76, 23%, 51%);
+  color: white;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   background-color:hsl(20, 100%, 65%);
 }
 
-li a {
-  color: white;
-  display: flex;
-  position: absolute;
-  flex-direction: row;
-  width: 160px;
-  height: 60px;
-  text-align: center;
-  justify-content: center;
-  vertical-align: middle;
-  align-items: center;
+#lines {
+  width: 100%;
 }
 
 #line-one {
   display: flex;
   position: relative;
   background-color: hsl(46, 98%, 80%);
-  width: 921px;
+  width: 81.5%;
   height: 5px;
-  left: 150px;
-  top: 33px;
+  left: 14%;
+  top: 10px;
 }
 
 #line-two {
   display: flex;
   position: relative;
   background-color: hsl(20, 100%, 65%);
-  width: 921px;
+  width: 81.5%;
   height: 5px;
-  left: 150px;
-  top: 38px;
-} 
+  left: 14%;
+  top: 15px;
+}
 
 /* MAIN */
 ::before ::after {
