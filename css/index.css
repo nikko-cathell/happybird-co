@@ -254,7 +254,6 @@ h2{
 }
 
 section img {
-  display: flex;
   position: absolute;
   z-index: -1;
   height: 100%;
